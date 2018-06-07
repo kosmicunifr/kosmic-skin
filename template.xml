@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="http://www.w3.org" version="0.14" name="kosmic">
+  <style id="kosmic" name="kosmic" image_directory="images" css_file="kosmic" sound_directory="sound" font_directory="fonts"/>
+</template>
