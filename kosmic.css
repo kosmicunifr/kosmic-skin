@@ -15509,10 +15509,6 @@ table.mceToolbar td {
 /* @il-highlight-bg: lighten(@brand-secondary, 44%); */
 /* @il-highlight-bg: lighten(#21c5d8, 40%); */
 /* @nav-tabs-link-hover-border-color: @brand-primary; */
-#ilTopBarNav {
-  margin-top: -38px;
-  margin-right: -30px;
-}
 #ilTopNav {
   margin: 0px 0 0 15px;
 }
@@ -15526,17 +15522,24 @@ table.mceToolbar td {
 div.ilTopBar a {
   color: #233755;
 }
+#ilTopBar.ilTopBar {
+  height: 39px;
+}
 .ilFixedTopSpacer {
   padding-top: 40px;
 }
 .ilMainHeader.ilTopFixed {
   top: 0px;
 }
+#ilTopBarNav {
+  margin-top: -35px;
+  margin-right: -30px;
+}
 #ilTopBarNav > li > a {
   background-color: transparent;
 }
 #ilTopNav.navbar {
-  padding-top: 5px;
+  padding-top: 2px;
 }
 div.il_HeaderInner {
   padding-top: 5px;
