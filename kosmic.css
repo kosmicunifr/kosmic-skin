@@ -6801,7 +6801,7 @@ button.close {
   font-size: 17px;
   font-weight: normal;
   padding: 0;
-  text-transform: uppercase;
+  text-transform: none;
   color: #909090;
 }
 .il-panel-listing-std-container > h3 {
@@ -6809,7 +6809,7 @@ button.close {
   padding: 0;
   margin: 8px 0 2px 0;
   font-size: 19px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #909090;
   float: left;
 }
@@ -8287,7 +8287,7 @@ ul.breadcrumb li:hover {
   font-weight: normal;
   padding: 8px 14px;
   background-color: transparent;
-  text-transform: uppercase;
+  text-transform: none;
   color: #909090;
 }
 .il-popover.webui-popover-fixed {
@@ -15566,6 +15566,9 @@ div.il_HeaderInner {
   max-width: none;
 }
 h3.ilHeader.ilContainerBlockHeader {
+  text-transform: none;
+}
+.il-panel-listing-std-container > .il-item-group > h4 {
   text-transform: none;
 }
 @media screen and (max-width: 767px) {
