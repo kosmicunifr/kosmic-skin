@@ -6809,7 +6809,7 @@ button.close {
   padding: 0;
   margin: 8px 0 2px 0;
   font-size: 19px;
-  text-transform: uppercase;
+  text-transform: none;
   color: #909090;
   float: left;
 }
@@ -10512,9 +10512,17 @@ div.ilForumQuoteHead {
 }
 .ilFrmPostImage img {
   vertical-align: top;
-  padding: 5px 20px 5px 5px;
+  margin: 5px 20px 5px 5px;
   border: none;
+}
+.ilFrmPostImage img[src*="data:image/"] {
   max-width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .ilFrmPostImage img[src*="data:image/"] {
+    margin: 0 !important;
+    padding: 5px 20px 5px 5px;
+  }
 }
 .ilFrmPostClear {
   clear: both;
@@ -10545,7 +10553,7 @@ div.ilFrmPostHeader span.small {
     width: 100%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen {
   .ilFrmPostContentContainer img {
     width: 100%;
     height: auto !important;
@@ -14742,6 +14750,7 @@ body.ilPrtfPdfBody .ilPCMyCoursesToggle img {
 .ilOnScreenChatMenuItem .media-body .media-heading {
   text-overflow: ellipsis;
   overflow: hidden;
+  max-width: 225px;
 }
 .ilOnScreenChatMenuItem .media-body .media-heading a {
   color: #2a4367 !important;
@@ -15555,6 +15564,9 @@ div.il_HeaderInner {
 }
 .ilContainerWidth {
   max-width: none;
+}
+h3.ilHeader.ilContainerBlockHeader {
+  text-transform: none;
 }
 @media screen and (max-width: 767px) {
   #ilTopBarNav {
