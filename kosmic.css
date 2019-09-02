@@ -17200,3 +17200,6 @@ h3.ilHeader.ilContainerBlockHeader {
 .ilLSOKioskMode #mainspacekeeper {
   padding-top: 40px;
 }
+.ilLSOKioskTopBarControls {
+  line-height: 36px;
+}
